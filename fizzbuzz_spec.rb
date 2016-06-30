@@ -24,4 +24,12 @@ describe FizzBuzz do
     end
   end
 
+  describe ".is?" do
+    context "some divides" do
+      it "should return FizzBuzz" do
+        expect(FizzBuzz.is?(15)).to eql("FizzBuzz")
+      end
+    end
+  end
+
 end
