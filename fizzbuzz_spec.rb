@@ -11,7 +11,7 @@ describe FizzBuzz do
   describe ".div_by_five" do
     context "divide by 5" do
       it "should return Buzz" do
-        expect(FizzBuzz.div_by_five(20)).to eql("Buzz")
+        expect(FizzBuzz.div_by_five(5)).to eql("Buzz")
       end
     end
   end

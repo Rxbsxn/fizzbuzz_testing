@@ -1,4 +1,8 @@
 class FizzBuzz
+
+  def is?
+
+  end
   def self.div_by_three(input)
     if (input % 3 == 0) then return "Fizz"
     end
