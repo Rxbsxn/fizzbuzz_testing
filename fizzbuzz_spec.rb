@@ -16,6 +16,12 @@ describe FizzBuzz do
     end
   end
 
-
+  describe ".div_by_fiveteen" do
+    context "divide by 15" do
+      it "should return FizzBuzz" do
+        expect(FizzBuzz.div_by_fiveteen(15)).to eql("FizzBuzz")
+      end
+    end
+  end
 
 end
